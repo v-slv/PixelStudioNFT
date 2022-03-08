@@ -1,0 +1,7 @@
+<div style="display: flex;justify-content: space-between;background-color: purple;color: white;">
+    <p>{{item.name}}</p>
+    <p><svg viewBox="0 0 8 8"><use xlink:href="#caret-bottom"></use></svg></p>
+</div>
+<div>
+    <p *ngFor="let variation of item.variations">{{variation.name}}</p>
+</div>
